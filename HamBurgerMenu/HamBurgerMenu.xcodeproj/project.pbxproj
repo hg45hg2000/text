@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48D5AD091ECAFAAB006FE83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D5AD081ECAFAAB006FE83E /* AppDelegate.swift */; };
+		48D5AD0B1ECAFAAB006FE83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D5AD0A1ECAFAAB006FE83E /* ViewController.swift */; };
+		48D5AD0E1ECAFAAB006FE83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D5AD0C1ECAFAAB006FE83E /* Main.storyboard */; };
+		48D5AD101ECAFAAB006FE83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D5AD0F1ECAFAAB006FE83E /* Assets.xcassets */; };
+		48D5AD131ECAFAAB006FE83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D5AD111ECAFAAB006FE83E /* LaunchScreen.storyboard */; };
+		48D5AD1E1ECAFAAB006FE83E /* HamBurgerMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D5AD1D1ECAFAAB006FE83E /* HamBurgerMenuTests.swift */; };
+		48D5AD291ECAFAAB006FE83E /* HamBurgerMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D5AD281ECAFAAB006FE83E /* HamBurgerMenuUITests.swift */; };
+		48D5AD381ECAFB38006FE83E /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D5AD371ECAFB38006FE83E /* MenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48D5AD1A1ECAFAAB006FE83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D5ACFD1ECAFAAB006FE83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D5AD041ECAFAAB006FE83E;
+			remoteInfo = HamBurgerMenu;
+		};
+		48D5AD251ECAFAAB006FE83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D5ACFD1ECAFAAB006FE83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D5AD041ECAFAAB006FE83E;
+			remoteInfo = HamBurgerMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48D5AD051ECAFAAB006FE83E /* HamBurgerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamBurgerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D5AD081ECAFAAB006FE83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48D5AD0A1ECAFAAB006FE83E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48D5AD0D1ECAFAAB006FE83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48D5AD0F1ECAFAAB006FE83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48D5AD121ECAFAAB006FE83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48D5AD141ECAFAAB006FE83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D5AD191ECAFAAB006FE83E /* HamBurgerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamBurgerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D5AD1D1ECAFAAB006FE83E /* HamBurgerMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamBurgerMenuTests.swift; sourceTree = "<group>"; };
+		48D5AD1F1ECAFAAB006FE83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D5AD241ECAFAAB006FE83E /* HamBurgerMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamBurgerMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D5AD281ECAFAAB006FE83E /* HamBurgerMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamBurgerMenuUITests.swift; sourceTree = "<group>"; };
+		48D5AD2A1ECAFAAB006FE83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D5AD371ECAFB38006FE83E /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48D5AD021ECAFAAB006FE83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D5AD161ECAFAAB006FE83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D5AD211ECAFAAB006FE83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48D5ACFC1ECAFAAB006FE83E = {
+			isa = PBXGroup;
+			children = (
+				48D5AD071ECAFAAB006FE83E /* HamBurgerMenu */,
+				48D5AD1C1ECAFAAB006FE83E /* HamBurgerMenuTests */,
+				48D5AD271ECAFAAB006FE83E /* HamBurgerMenuUITests */,
+				48D5AD061ECAFAAB006FE83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48D5AD061ECAFAAB006FE83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48D5AD051ECAFAAB006FE83E /* HamBurgerMenu.app */,
+				48D5AD191ECAFAAB006FE83E /* HamBurgerMenuTests.xctest */,
+				48D5AD241ECAFAAB006FE83E /* HamBurgerMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48D5AD071ECAFAAB006FE83E /* HamBurgerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				48D5AD361ECAFB03006FE83E /* Menu */,
+				48D5AD081ECAFAAB006FE83E /* AppDelegate.swift */,
+				48D5AD0A1ECAFAAB006FE83E /* ViewController.swift */,
+				48D5AD0C1ECAFAAB006FE83E /* Main.storyboard */,
+				48D5AD0F1ECAFAAB006FE83E /* Assets.xcassets */,
+				48D5AD111ECAFAAB006FE83E /* LaunchScreen.storyboard */,
+				48D5AD141ECAFAAB006FE83E /* Info.plist */,
+			);
+			path = HamBurgerMenu;
+			sourceTree = "<group>";
+		};
+		48D5AD1C1ECAFAAB006FE83E /* HamBurgerMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				48D5AD1D1ECAFAAB006FE83E /* HamBurgerMenuTests.swift */,
+				48D5AD1F1ECAFAAB006FE83E /* Info.plist */,
+			);
+			path = HamBurgerMenuTests;
+			sourceTree = "<group>";
+		};
+		48D5AD271ECAFAAB006FE83E /* HamBurgerMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48D5AD281ECAFAAB006FE83E /* HamBurgerMenuUITests.swift */,
+				48D5AD2A1ECAFAAB006FE83E /* Info.plist */,
+			);
+			path = HamBurgerMenuUITests;
+			sourceTree = "<group>";
+		};
+		48D5AD361ECAFB03006FE83E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				48D5AD371ECAFB38006FE83E /* MenuController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48D5AD041ECAFAAB006FE83E /* HamBurgerMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D5AD2D1ECAFAAB006FE83E /* Build configuration list for PBXNativeTarget "HamBurgerMenu" */;
+			buildPhases = (
+				48D5AD011ECAFAAB006FE83E /* Sources */,
+				48D5AD021ECAFAAB006FE83E /* Frameworks */,
+				48D5AD031ECAFAAB006FE83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamBurgerMenu;
+			productName = HamBurgerMenu;
+			productReference = 48D5AD051ECAFAAB006FE83E /* HamBurgerMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48D5AD181ECAFAAB006FE83E /* HamBurgerMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D5AD301ECAFAAB006FE83E /* Build configuration list for PBXNativeTarget "HamBurgerMenuTests" */;
+			buildPhases = (
+				48D5AD151ECAFAAB006FE83E /* Sources */,
+				48D5AD161ECAFAAB006FE83E /* Frameworks */,
+				48D5AD171ECAFAAB006FE83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48D5AD1B1ECAFAAB006FE83E /* PBXTargetDependency */,
+			);
+			name = HamBurgerMenuTests;
+			productName = HamBurgerMenuTests;
+			productReference = 48D5AD191ECAFAAB006FE83E /* HamBurgerMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48D5AD231ECAFAAB006FE83E /* HamBurgerMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D5AD331ECAFAAB006FE83E /* Build configuration list for PBXNativeTarget "HamBurgerMenuUITests" */;
+			buildPhases = (
+				48D5AD201ECAFAAB006FE83E /* Sources */,
+				48D5AD211ECAFAAB006FE83E /* Frameworks */,
+				48D5AD221ECAFAAB006FE83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48D5AD261ECAFAAB006FE83E /* PBXTargetDependency */,
+			);
+			name = HamBurgerMenuUITests;
+			productName = HamBurgerMenuUITests;
+			productReference = 48D5AD241ECAFAAB006FE83E /* HamBurgerMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48D5ACFD1ECAFAAB006FE83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "林羣珩";
+				TargetAttributes = {
+					48D5AD041ECAFAAB006FE83E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7LVJW6YG74;
+						ProvisioningStyle = Automatic;
+					};
+					48D5AD181ECAFAAB006FE83E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7LVJW6YG74;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48D5AD041ECAFAAB006FE83E;
+					};
+					48D5AD231ECAFAAB006FE83E = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7LVJW6YG74;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48D5AD041ECAFAAB006FE83E;
+					};
+				};
+			};
+			buildConfigurationList = 48D5AD001ECAFAAB006FE83E /* Build configuration list for PBXProject "HamBurgerMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48D5ACFC1ECAFAAB006FE83E;
+			productRefGroup = 48D5AD061ECAFAAB006FE83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48D5AD041ECAFAAB006FE83E /* HamBurgerMenu */,
+				48D5AD181ECAFAAB006FE83E /* HamBurgerMenuTests */,
+				48D5AD231ECAFAAB006FE83E /* HamBurgerMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48D5AD031ECAFAAB006FE83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D5AD131ECAFAAB006FE83E /* LaunchScreen.storyboard in Resources */,
+				48D5AD101ECAFAAB006FE83E /* Assets.xcassets in Resources */,
+				48D5AD0E1ECAFAAB006FE83E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D5AD171ECAFAAB006FE83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D5AD221ECAFAAB006FE83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48D5AD011ECAFAAB006FE83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D5AD0B1ECAFAAB006FE83E /* ViewController.swift in Sources */,
+				48D5AD381ECAFB38006FE83E /* MenuController.swift in Sources */,
+				48D5AD091ECAFAAB006FE83E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D5AD151ECAFAAB006FE83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D5AD1E1ECAFAAB006FE83E /* HamBurgerMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48D5AD201ECAFAAB006FE83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48D5AD291ECAFAAB006FE83E /* HamBurgerMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48D5AD1B1ECAFAAB006FE83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D5AD041ECAFAAB006FE83E /* HamBurgerMenu */;
+			targetProxy = 48D5AD1A1ECAFAAB006FE83E /* PBXContainerItemProxy */;
+		};
+		48D5AD261ECAFAAB006FE83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D5AD041ECAFAAB006FE83E /* HamBurgerMenu */;
+			targetProxy = 48D5AD251ECAFAAB006FE83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48D5AD0C1ECAFAAB006FE83E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48D5AD0D1ECAFAAB006FE83E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48D5AD111ECAFAAB006FE83E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48D5AD121ECAFAAB006FE83E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48D5AD2B1ECAFAAB006FE83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48D5AD2C1ECAFAAB006FE83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48D5AD2E1ECAFAAB006FE83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LVJW6YG74;
+				INFOPLIST_FILE = HamBurgerMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamba.HamBurgerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		48D5AD2F1ECAFAAB006FE83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7LVJW6YG74;
+				INFOPLIST_FILE = HamBurgerMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamba.HamBurgerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		48D5AD311ECAFAAB006FE83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7LVJW6YG74;
+				INFOPLIST_FILE = HamBurgerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamba.HamBurgerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamBurgerMenu.app/HamBurgerMenu";
+			};
+			name = Debug;
+		};
+		48D5AD321ECAFAAB006FE83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7LVJW6YG74;
+				INFOPLIST_FILE = HamBurgerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamba.HamBurgerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamBurgerMenu.app/HamBurgerMenu";
+			};
+			name = Release;
+		};
+		48D5AD341ECAFAAB006FE83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7LVJW6YG74;
+				INFOPLIST_FILE = HamBurgerMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamba.HamBurgerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HamBurgerMenu;
+			};
+			name = Debug;
+		};
+		48D5AD351ECAFAAB006FE83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7LVJW6YG74;
+				INFOPLIST_FILE = HamBurgerMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jamba.HamBurgerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HamBurgerMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48D5AD001ECAFAAB006FE83E /* Build configuration list for PBXProject "HamBurgerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D5AD2B1ECAFAAB006FE83E /* Debug */,
+				48D5AD2C1ECAFAAB006FE83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48D5AD2D1ECAFAAB006FE83E /* Build configuration list for PBXNativeTarget "HamBurgerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D5AD2E1ECAFAAB006FE83E /* Debug */,
+				48D5AD2F1ECAFAAB006FE83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48D5AD301ECAFAAB006FE83E /* Build configuration list for PBXNativeTarget "HamBurgerMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D5AD311ECAFAAB006FE83E /* Debug */,
+				48D5AD321ECAFAAB006FE83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		48D5AD331ECAFAAB006FE83E /* Build configuration list for PBXNativeTarget "HamBurgerMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48D5AD341ECAFAAB006FE83E /* Debug */,
+				48D5AD351ECAFAAB006FE83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48D5ACFD1ECAFAAB006FE83E /* Project object */;
+}
